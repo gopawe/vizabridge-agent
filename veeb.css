@@ -1,0 +1,428 @@
+/* ========== VEEB UI & COMPONENT CSS FILE */
+/* ========== VEEB KOREA ================= */
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.white-head{
+	background: #F9F9FC;
+	height: 789px;
+}
+
+/*.margin-row{
+	margin-top: 8em;
+}*/
+
+.under-lead{
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.second-lead{
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.wrapper{
+	margin: 10px auto;
+	width: 90%;
+}
+
+/* ============== COLORS UI STYLES ====================*/
+/**Text Colors**/
+.veeb-purple-color{
+	color: #5B67CA;
+}
+
+.veeb-black-color{
+	color: #000000;
+}
+
+.veeb-dark-color{
+	color: #191F28;
+}
+
+.veeb-light-color{
+	color: #EBEBEB;
+}
+
+.veeb-blue-color{
+	color: #0066FF;
+}
+
+/**Background Colors**/
+.veeb-purple-background{
+	background: #5B67CA;
+}
+
+.veeb-black-background{
+	background: #000000;
+}
+
+.veeb-dark-background{
+	background: #191F28;
+}
+
+.veeb-blue-background{
+	background: #0066FF;
+}
+
+.veeb-light-background{
+	background: #EBEBEB;
+}
+
+
+/* =============== BUTTON UI COMPONENTS STYLES ========= */
+
+.veeb-inline-btn{
+	padding: 10px 28px;
+	/*background: #282bf7;*/
+	color: #fff;
+	outline: none;
+	display: inline-block;
+	border: none;
+	border-radius: 18px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.veeb-inline-btn:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.veeb-block-btn{
+	padding: 6px 20px;
+	/*background: #282bf7;*/
+	color: #fff;
+	outline: none;
+	display: block;
+	border: none;
+	border-radius: 14px;
+}
+
+
+/* ========== TYPOGRAPHY STYLES ======= */
+.veeb-header{
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+
+.veeb-header-size-1{
+	font-size: 3.5em;
+}
+
+.veeb-header-size-4{
+	font-size: 0.8em;
+}
+
+/** =========== VEEB CONVO DIV SPEECH BUBBLE =====*/
+.conversation-wrapper{
+	text-align: center;
+}
+
+.left-conversation{
+	display: grid;
+	grid-template-columns: 2fr 7fr;
+	margin-bottom: 10px;
+}
+
+.right-conversation{
+	display: grid;
+	grid-template-columns: 7fr 2fr;
+	margin-bottom: 10px;
+}
+
+.convo-div{
+	width: 80%;
+	height: 280px;
+	background: #ffffff;
+	padding: 10px 20px;
+	border: 0.5px solid #ddd;
+	border-radius: 5px;
+	-webkit-box-shadow: -1px 2px 10px 0px rgba(179,179,179,0.95); 
+	box-shadow: -1px 2px 10px 0px rgba(179,179,179,0.95);
+}
+
+.veeb-left-bubble {
+    position: relative;
+    background: linear-gradient(0deg, #323ea8 5%, #5b66ca 100%);
+    color: #FFFFFF;
+    /*font-family: Arial;*/
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    width: 65%;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.veeb-left-bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #323ea8 transparent transparent;
+    top: 83%;
+    left: -15px;
+    margin-top: -13px;
+}
+
+.veeb-right-bubble {
+    position: relative;
+    background: linear-gradient(0deg, #323ea8 5%, #5b66ca 100%);
+    color: #FFFFFF;
+    /*font-family: Arial;*/
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    width: 65%;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.veeb-right-bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 20px 0 0 20px;
+    border-color: transparent transparent transparent #323ea8;
+    top: 83%;
+    right: -14px;
+    margin-top: -13px;
+}
+
+.bb-spn{
+	margin-top: 7px;
+	font-size: 10px;
+}
+
+.left-img{
+	width: 45px;
+	height: 45px;
+	background: orange;
+	border-radius: 50%;
+}
+
+.color2{
+	background: #f2836f;
+}
+
+.right-img{
+	width: 45px;
+	height: 45px;
+	background: #f2c341;
+	border-radius: 50%;
+}
+
+
+/** ======  VISA AGENCY SECTION ========== **/
+
+.veeb-blocks{
+	border: 0.5px solid #ddd;
+	border-radius: 7px;
+	margin: 5px;
+	height: 280px;
+	width: 250px;
+	padding: 8px;
+}
+
+.veeb-blocks-body p{
+	line-height: 25px;
+}
+
+.veeb-blocks .right-blocks{
+	text-align: right;
+}
+
+.veeb-blocks .under-block{
+	border: 0.5px solid #ddd;
+	padding: 1px;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 9px;
+	width: 70%;
+	margin: 10px auto;
+}
+
+.veeb-blocks-body{
+	font-size: 12px;
+}
+
+.veeb-blocks-double-elements{
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+}
+
+
+/*** ============ VEEB WHITE CARD ***** ============= */
+.veeb-white-card{
+	/*width: 191.29px;*/
+	height: 196.04px;
+	background: #fff;
+	border-radius: 7px;
+	text-align: center;
+	justify-content: center;
+	border: 0.5px solid #ddd;
+	margin: 10px;
+	padding-top: 1em;
+}
+
+.veeb-white-card img{
+	padding: 10px;
+	border: 0.5px solid #ddd;
+	border-radius: 5px;
+}
+
+.veeb-white-card h4{
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.veeb-white-card p{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.veeb-big-white-card{
+	height: 220.04px;
+	width: 320px;
+	background: #fff;
+	border-radius: 7px;
+	text-align: left;
+	justify-content: left;
+	border: 0.5px solid #ddd;
+	margin: 14px;
+	padding-top: 1em;
+	padding: 20px;
+	font-size: 10px;
+}
+
+.veeb-big-white-card p{
+	line-height: 25px;
+	margin-top: 7px;
+}
+
+.veeb-big-white-card .tit{
+	font-weight: bold;
+}
+
+/** ============ APPLY SECTION ============ */
+.center-apply{
+	width: 50%;
+	margin: 10px auto;
+	background: #191F28;
+	border-radius: 18px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 28px;
+}
+
+.center-apply h4{
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+/***  ============ VEEB FOOTER ================= **/
+.veeb-footer{
+
+}
+
+.veeb-footer h3{
+	color: #fff;
+}
+
+.veeb-footer p{
+	color: #fff;
+	padding: 8px;
+	margin-top: -10px;
+}
+
+.veeb-footer img{
+	margin-left: 7px;
+}
+
+
+
+/** ========  VEEB MEDIA QUERY  ===== ***/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .veeb-blocks{
+		border: 0.5px solid #ddd;
+		border-radius: 7px;
+		margin: 5px;
+		height: 280px;
+		width: 95%;
+		padding: 8px;
+	}
+
+	#convo{
+		width: 95%;
+	}
+
+	.veeb-blocks-body p{
+		line-height: 25px;
+	}
+  
+  /****** ====== CENTER DIV *****/
+  .center-apply{
+		width: 80%;
+		margin: 10px auto;
+		background: #191F28;
+		border-radius: 18px;
+		padding: 10px;
+		color: #fff;
+		text-align: center;
+		padding-bottom: 28px;
+	}
+
+
+	body{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+	}
+
+
+/*	.margin-row{
+		margin-top: 2em;
+	}
+*/
+
+
+	.white-head{
+		background: #F9F9FC;
+		height: auto;
+	}
+
+	.under-lead{
+		line-height: 20px;
+		font-size: 18px;
+	}
+
+	.second-lead{
+		line-height: 20px;
+		font-size: 18px;
+	}
+}
+
+
+
+

@@ -1,0 +1,34 @@
+.main-btn{
+	background: #5B67CA;
+	color: #ffffff;
+}
+
+.main-btn:hover{
+	color: #ffffff;
+}
+
+.light-btn{
+	background: #E9EBFF;
+	color: #5B67CA;
+}
+
+.purple-background{
+  background: #5B67CA;
+}
+
+.purple-text{
+	background: #5B67CA;
+}
+
+.simple-span{
+	padding: 10px;
+}
+
+.post-details{
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.post-info{
+	text-align: center;
+}
